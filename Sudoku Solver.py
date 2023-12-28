@@ -2,11 +2,13 @@
 # Solve sudoku using backtracking and recursions
 # A sudoku puzzle here is a list of lists, where the inner list is a row
 # Each list of list element is as such a cell in the sudoku puzzle
+# Each blank space is represented using -1
 
 SIZE = 9
 BLANK_CELL = -1
 
 def main():
+    # Sudoku input
     puzzle = [
         [3, 9, -1,   -1, 5, -1,   -1, -1, -1],
         [-1, -1, -1,   2, -1, -1,   -1, -1, 5],
@@ -20,7 +22,8 @@ def main():
         [6, 7, -1,   1, -1, 5,   -1, 4, -1],
         [1, -1, 9,   -1, -1, -1,   2, -1, -1]
     ]
-    print(solve_sudoku(puzzle))
+    
+    solve_sudoku(puzzle)
     print(puzzle)
 
 
