@@ -36,9 +36,8 @@ This Python program utilizes backtracking and recursion to solve Sudoku puzzles.
    - Call the `solve_sudoku()` function with the input grid.
 
 3. **Output:**
-   - The program will either:
-      - Print the solved Sudoku grid if a solution is found.
-      - Print "No solution exists" if no solution is found.
+   - Sudoku grid solved, in place.
+
 
 **Example:**
 
